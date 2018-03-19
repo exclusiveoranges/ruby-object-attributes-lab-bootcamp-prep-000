@@ -14,11 +14,13 @@ class Person
 
 end
 
-  def job
+  def initialize(job)
     @job = job
+
+  def job
+    @job
   end
 
   def job=(new_job)
     @job = new_job
   end
-  
