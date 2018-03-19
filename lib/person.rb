@@ -16,6 +16,7 @@ end
 
   def initialize(job)
     @job = job
+  end
 
   def job
     @job
